@@ -1,9 +1,9 @@
-import React from 'react'
-import logoIcon from '../assets/Logo.svg'
-import libraryIcon from '../assets/Library.svg'
-import moviesIcon from '../assets/Movies.svg'
-import tvIcon from '../assets/Tv Shows.svg'
-import savedIcon from '../assets/Saved.svg'
+import React from "react";
+import logoIcon from "../assets/Logo.svg";
+import libraryIcon from "../assets/Library.svg";
+import moviesIcon from "../assets/Movies.svg";
+import tvIcon from "../assets/Tv Shows.svg";
+import savedIcon from "../assets/Saved.svg";
 
 export default function Sidebar() {
   return (
@@ -27,5 +27,5 @@ export default function Sidebar() {
       </nav>
       <div className="profile">S</div>
     </aside>
-  )
+  );
 }

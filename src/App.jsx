@@ -1,7 +1,7 @@
-import './App.css'
-import { MovieProvider } from './context/MovieContext'
-import Sidebar from './components/Sidebar'
-import Home from './pages/Home'
+import "./App.css";
+import { MovieProvider } from "./context/MovieContext";
+import Sidebar from "./components/Sidebar";
+import Home from "./pages/Home";
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
         </div>
       </div>
     </MovieProvider>
-  )
+  );
 }
 
-export default App
+export default App;
